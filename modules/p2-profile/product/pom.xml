@@ -195,6 +195,9 @@
                                     org.wso2.carbon.identity.framework:org.wso2.carbon.identity.role.mgt.core.server.feature:${carbon.identity.version}
                                 </featureArtifactDef>
 
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity.framework:org.wso2.carbon.identity.secret.mgt.core.server.feature:${carbon.identity.version}
+                                </featureArtifactDef>
 
                            
 
@@ -864,6 +867,10 @@
                                 </feature>
                                 <feature>
                                     <id>org.wso2.carbon.identity.workflow.mgt.server.feature.group</id>
+                                    <version>${carbon.identity.version}</version>
+                                </feature>
+                                <feature>
+                                    <id>org.wso2.carbon.identity.secret.mgt.core.server.feature.group</id>
                                     <version>${carbon.identity.version}</version>
                                 </feature>
                                 <feature>
